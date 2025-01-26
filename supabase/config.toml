@@ -1,0 +1,10 @@
+project_id = "fdzepdvepjqyknopnnfe"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+
+[functions]
+[functions.analyze-waste]
+verify_jwt = false
