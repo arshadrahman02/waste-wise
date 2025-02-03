@@ -51,8 +51,16 @@ const Navbar = () => {
   return (
     <nav className="bg-primary py-4 px-6 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-white text-2xl font-bold">
-          EcoWaste
+        <Link
+          to="/"
+          className="text-white text-2xl font-bold flex items-center"
+        >
+          <img
+            className="w-20 h-20"
+            src="/public/Screenshot_2025-02-03_135733-removebg-preview.png"
+            alt=""
+          />
+          <span className="mt-2">EcoWaste</span>
         </Link>
         {isMobile ? (
           <Sheet>
