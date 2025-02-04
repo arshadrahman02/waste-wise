@@ -57,7 +57,7 @@ const Navbar = () => {
         >
           <img
             className="w-20 h-20"
-            src="/public/Screenshot_2025-02-03_135733-removebg-preview.png"
+            src="https://i.ibb.co.com/B5Ln56g0/Screenshot-2025-02-03-135733-removebg-preview.png"
             alt=""
           />
           <span className="mt-2">EcoWaste</span>
